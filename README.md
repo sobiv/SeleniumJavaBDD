@@ -1,7 +1,7 @@
 http://uk.easyroommate.com/
 =====================
 
-1) Before running test please do set SDK to 1.8
+1) Before running test please do set JDK to 1.8
 
 2) Run 'mvn clean'
 
