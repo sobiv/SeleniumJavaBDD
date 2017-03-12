@@ -1,0 +1,22 @@
+package pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class TopNavBarPage extends BaseClass{
+
+	public TopNavBarPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(id = "signupLightBox")
+	public WebElement SignUpPopUP;
+	
+	@FindBy(id = "search-location")
+	public WebElement SearchLocationField;
+	
+	@FindBy(id = "max-rent")
+	public WebElement MaxRentField;
+	
+}

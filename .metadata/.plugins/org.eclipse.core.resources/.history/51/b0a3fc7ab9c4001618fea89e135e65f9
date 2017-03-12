@@ -1,0 +1,47 @@
+package helpers.functions;
+
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.junit.runner.Runner;
+import org.openqa.selenium.WebDriver;
+
+import pageobjects.BaseClass;
+
+public class FunctionHelper extends BaseClass{
+
+	  //public WebDriver driver;
+	  public String generatedEmail;
+	  public String generatedMDate;
+
+	  public FunctionHelper(WebDriver driver) {
+			super(driver);
+		}
+	  
+	  public String uniqueEmail() {
+		    long time = Instant.now().getEpochSecond();
+		    String email = time + "t.hunt@mail.com";
+		    generatedEmail = email;
+		    return email;
+		  }
+	  
+	  public String date() {
+//		    long time = Instant.now().getEpochSecond();
+//		    String email = time + "t.hunt@mail.com";
+//		    generatedEmail = email;
+//		    return email;
+		  
+		  SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		  Calendar moveDate = Calendar.getInstance();
+		  moveDate.setTime(new Date());
+		  moveDate.add(Calendar.DATE, 90); // Adding 90 days
+		  String outputDate = sdf.format(moveDate.getTime());
+		  System.out.println(outputDate);
+		  generatedMDate = outputDate;
+		  return outputDate;  
+	  }
+	  
+	
+}

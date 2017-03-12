@@ -1,0 +1,10 @@
+1482031157684	Delete resource 'cucumber/.gitignore'
+1482031657446	Delete resource 'cucumber/cucumber/src/test/java/step_definitions/Search.java'
+1482031747028	Delete resource 'cucumber/cucumber/src/test/java/pageobjects/CreateProfilePage.java'
+1482031790420	Delete resource 'cucumber/bin/cucumber/src/test/java/pageobjects/SearchPage.class'
+1482031798457	Delete resource 'cucumber/bin/cucumber/src/test/java/step_definitions/Search.class'
+1482031810451	Delete resource 'cucumber/bin/cucumber/src/test/resources/features/Search.feature'
+1482031824559	Delete resource 'cucumber/bin/cucumber/target/test-classes/features/Search.feature'
+1482031857398	Delete 2 resources
+1482032232595	Delete resource 'cucumber/FailedScreenshots/Advanced Search 24-07 19.32.31.jpg'
+1482032235199	Delete resource 'cucumber/FailedScreenshots/Advanced Search 24-07 19.32.40.jpg'

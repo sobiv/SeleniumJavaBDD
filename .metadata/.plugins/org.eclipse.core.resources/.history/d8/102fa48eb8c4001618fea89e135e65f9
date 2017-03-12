@@ -1,0 +1,18 @@
+package helpers.functions;
+
+import org.openqa.selenium.WebDriver;
+
+import pageobjects.BaseClass;
+
+public class FunctionHelper extends BaseClass{
+
+	  public WebDriver driver;
+	  public String generatedEmail;
+
+	  public FunctionHelper(WebDriver driver) {
+			super(driver);
+	  }
+	  
+	  
+	
+}

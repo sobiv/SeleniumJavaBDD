@@ -1,0 +1,63 @@
+package pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage extends BaseClass {
+
+	public HomePage(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(id = "search-bottom-button")
+	public WebElement startYourSearchButton;
+	
+	
+	
+//	@FindBy(css = ".search-field #query")
+//	public WebElement searchField;
+//
+//	@FindBy(css = ".search-field ~ .search-submit")
+//	public WebElement searchButton;
+//
+//	@FindBy(css = "#results-list .title")
+//	public List<WebElement> searchTitle;
+//
+//	@FindBy(css = "#home .disciplines li a")
+//	public List<WebElement> disciplineList;
+//
+//	// #results #content-type-facet a .facet-title
+//
+//	@FindBy(css = "#results .facet .facet-title")
+//	public List<WebElement> contentType;
+//
+//	@FindBy(css = "#results #results-list .content-type")
+//	public List<WebElement> displayContentType;
+//
+//	@FindBy(css = "#results #results-only-access-checkbox")
+//	public WebElement previewOnlyCheckbox;
+//
+//	@FindBy(css = "#results #results-list .authors a")
+//	public List<WebElement> author;
+//
+//	@FindBy(css = "#header .pillow-btn.open-search-options")
+//	public WebElement searchOptionButton;
+//
+//	@FindBy(css = "#header .flyout-content li a")
+//	public List<WebElement> searchOption;
+//
+//	// Advance search
+//
+//	@FindBy(css = "#advanced-search-form #date-facet-mode")
+//	public WebElement dateModeType;
+//
+//	@FindBy(css = "#advanced-search-form .start-year")
+//	public WebElement startDate;
+//
+//	@FindBy(css = "#advanced-search #submit-advanced-search")
+//	public WebElement advanceSearchButton;
+//
+//	@FindBy(css = "#results #results-list .no-access")
+//	public WebElement resultContent;
+}

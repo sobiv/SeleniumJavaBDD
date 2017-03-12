@@ -1,0 +1,30 @@
+package pageobjects;
+
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class SignUpPage extends BaseClass {
+
+	public SignUpPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(id = "signupLightBox")
+	public WebElement SignUpPopUP;
+	
+	@FindBy(id = "search-location")
+	public WebElement SearchLocationField;
+	
+	@FindBy(id = "max-rent")
+	public WebElement MaxRentField;
+	
+	@FindBy(id = "moving-date")
+	public WebElement MovingDateField;
+	
+	@FindBy(id = "userType")
+	public WebElement UserType;
+	
+}
